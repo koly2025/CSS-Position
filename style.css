@@ -1,0 +1,59 @@
+/* Position */
+.position-static {
+    position: static;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+}
+
+.position-relative {
+    position: relative;
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 10px;
+    top: 10px;
+    left: 10px;
+}
+
+.position-absolute {
+    position: absolute;
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 10px;
+    top: 50px;
+    left: 50px;
+}
+
+.position-fixed {
+    position: fixed;
+    background-color: lightyellow;
+    padding: 20px;
+    margin: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.position-sticky {
+    position: sticky;
+    background-color: lightgray;
+    padding: 20px;
+    margin: 10px;
+    top: 0;
+}
+
+.z-index-10 {
+    position: relative;
+    z-index: 10;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin: 10px;
+}
+
+.z-index-1 {
+    position: relative;
+    z-index: 1;
+    background-color: lightpink;
+    padding: 20px;
+    margin: 10px;
+}
